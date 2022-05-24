@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TemperatureApplication<temperature>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.temperature.temperature.TemperatureApplication",
+            "projectName": "temperature",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
