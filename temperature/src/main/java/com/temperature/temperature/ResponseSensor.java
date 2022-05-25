@@ -1,10 +1,9 @@
 package com.temperature.temperature;
 
 import java.util.Date;
-import lombok.Data;
 
 
-@Data
+
 public class ResponseSensor {
     
     private Long id;
@@ -12,4 +11,26 @@ public class ResponseSensor {
     private Float magnitude;
     private Float variation;
     private Date timestamp; 
+
+    public Long getId() {
+        return id;
+    }
+
+    
+    public String getSensorElementId() {
+        return sensorElementId;
+    }
+
+    public Float getMagnitude() {
+        return magnitude;
+    }
+
+    public Float getVariation() {
+        return variation;
+    }
+
+    public Date getTimestamp() {
+        return timestamp;
+    }
+
 }
